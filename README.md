@@ -6,7 +6,7 @@ This project runs three Docker containers connected through a custom Docker netw
 
 | Container | Image | Port |
 |------------|--------|------|
-| Nginx | nginx:latest | 8080 |
+| Nginx | nginx:latest | 8081 |
 | Redis | redis:7 | 6379 |
 | PostgreSQL | postgres:16 | 5432 |
 
@@ -85,7 +85,7 @@ docker-multi-container/
 Nginx
 
 ```
-http://localhost:8080
+http://localhost:8081
 ```
 
 Redis
